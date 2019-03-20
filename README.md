@@ -2,7 +2,7 @@
 <pre>
 <h2>Bank identification numbers in bulk - No more captcha codes!</h2>
 
-This is my very first useful thing made in Python!
+This is my very first useful thing made using Python and I have learned a lot by making it!
 
 You can enter only the 6 digit BIN code or a full card number.
 In the case of entering a cardnumber, it will only keep the first 6 digits.
