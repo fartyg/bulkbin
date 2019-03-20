@@ -6,9 +6,7 @@ api_format = 'json/'
 api_key = 'yourapikeyfrombincodes' #if you dont have an API code, you can test this program using the bulkbin_binlist.py file instead
 
 #banner and version
-from pyfiglet import Figlet
-custom_fig = Figlet(font='graffiti')
-print(custom_fig.renderText('BulkBin'))
+print('BulkBin')
 print('Version: 1.0 --- API: ' + main_api_url)
 
 
