@@ -15,7 +15,7 @@ binlist.net requires no API key but limits requests per day.
   To get full use out of this script one should consider 
   paying a small fee for unlimited access from one of the above BIN database website.
   
-  This script can easily be adapted to fit the API of other BIN APIs.
+  This script can easily be adapted to fit the API of other BIN websites.
 
 To exit the program, press 'ctrl+c'
 </pre>
