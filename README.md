@@ -19,6 +19,7 @@ Duplicate BINs will be removed.
     paying a small fee for unlimited access from one of the above BIN database website.
   
     This script can easily be adapted to fit the API of other BIN websites.
+    If you have opinions on which BIN database is best/most up to date, let me know.
 
 To exit the program, press 'ctrl+c'
 </pre>
