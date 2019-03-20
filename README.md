@@ -10,8 +10,7 @@ To search for multiple cards at the same time separate using comma+space, like s
 Duplicate BINs will be removed.
 
 bincodes.com requires API key that you can get for free. Requests limited to 20 per day.
-binlist.net requires no API key but limits requests per day. 
-     Use bulkbin_binlist.py if you just quickly want to test the script.
+binlist.net requires no API key but limits requests per day.
 
     To get full use out of this script one should consider 
     paying a small fee for unlimited access from one of the above BIN database website.
