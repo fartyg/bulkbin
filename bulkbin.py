@@ -17,7 +17,7 @@ while True:
     #put items in a list and split it based on ', ' (comma_space)
     input_string = input("\nEnter BINs or cardnumbers separated by comma_space:\n>>> ")
 
-    card_list = input_string.split(' , ')
+    card_list = input_string.split(', ')
     bin_list = list(map(lambda i:i[0:6],card_list))
     print('Removing possible duplicates...')
     no_dup_bin_list = list(dict.fromkeys(bin_list)) 
