@@ -1,6 +1,6 @@
 # bulkbin
 <pre>
-<h2>Search card BIN information in bulk</h2>
+<h2>Bank identification numbers in bulk - No more captcha codes!</h2>
 
 You can enter only the 6 digit BIN code or a full card number.
 In the case of entering a cardnumber, it will only keep the first 6 digits.
