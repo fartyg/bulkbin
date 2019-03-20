@@ -3,10 +3,8 @@ import requests
 #constant variables:
 main_api_url = 'https://lookup.binlist.net/'
 
-#banner and version
-from pyfiglet import Figlet
-custom_fig = Figlet(font='graffiti')
-print(custom_fig.renderText('BulkBin'))
+#banner, API and version
+print('BulkBin')
 print('Version: 1.0 --- API: ' + main_api_url)
 
 while True:
