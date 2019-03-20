@@ -1,7 +1,7 @@
 # bulkbin
-<pre><h1>Search card BIN information in bulk</h1>
-
-Do not enter captcha codes for every BIN search - do it in bulk!
+<pre>
+<h1>Search card BIN information in bulk</h1>
+<h2>Do not enter captcha codes for every BIN search - do it in bulk!</h2>
 
 You can enter only the 6 digit BIN code or a full card number.
 In the case of entering a cardnumber, it will only keep the first 6 digits.
