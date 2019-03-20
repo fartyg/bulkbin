@@ -13,4 +13,6 @@ binlist.net has a limit to amount of requests per day but does not require an AP
 
 To get full use out of this script one should consider getting 
 unlimited access from one of the above BIN database websites.
+
+To exit the program, press 'ctrl+c'
 </pre>
