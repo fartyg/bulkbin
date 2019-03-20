@@ -11,8 +11,8 @@ To search for multiple cards at the same time separate using comma+space, like s
 bincodes.com requires API key that you can get for free. Requests limited to 20 per day.
 binlist.net requires no API key but limits requests per day.
 
-  To get full use out of this script one should consider getting 
-  unlimited access from one of the above BIN database websites.
+  To get full use out of this script one should consider 
+  paying a small fee for unlimited access from one of the above BIN database website.
   
   This script can easily be adapted to fit the API of other BIN APIs.
 
