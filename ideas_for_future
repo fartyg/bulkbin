@@ -3,4 +3,5 @@
 - Add alternative database listing BINs that been confirmed incorrect (exmpl: certain BIN is listed as business card when its in fact not)
 - (Handle prepaid card boolean flag for binlist version)
 - Add cool Pyfiglet logo without having to import the package into the script
+- Auto copy paste
 - Add this tool in a larger toolkit of cool things!
