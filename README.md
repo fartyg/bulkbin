@@ -1,5 +1,5 @@
 # bulkbin
-<h1>Search card BIN information in bulk<h1>
+<h1>Search card BIN information in bulk</h1>
 
 <p>You can enter only the 6 digit BIN code or a full cardnumber.
 In the case of entering a cardnumber, it will only keep the first 6 digits.
