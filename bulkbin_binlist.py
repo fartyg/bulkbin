@@ -11,7 +11,7 @@ print('Version: 1.0 --- API: ' + main_api_url)
 
 while True:
 
-    #put items in a list and split it based on ' , ' (comma_space)
+    #put items in a list and split it based on ', ' (comma_space)
     input_string = input("\nEnter BINs or cardnumbers separated by comma_space:\n>>> ")
 
     card_list = input_string.split(', ')
