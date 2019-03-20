@@ -12,8 +12,8 @@ To search for multiple cards at the same time separate using comma+space, like s
 12345, 12345, 12345, 12345 
 Duplicate BINs will be removed.
 
-bincodes.com requires API key that you can get for free. Requests limited to 20 per day.
-binlist.net requires no API key but limits requests per day.
+- bincodes.com requires API key that you can get for free. Requests limited to 20 per day.
+- binlist.net requires no API key but limits requests per day. Use this version to quickly test.
 
     To get full use out of this script one should consider 
     paying a small fee for unlimited access from one of the above BIN database website.
