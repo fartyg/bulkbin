@@ -15,11 +15,11 @@ while True:
     card_list = input_string.split(', ')
     bin_list = list(map(lambda i:i[0:6],card_list))
     print('Removing possible duplicates...')
-    no_dup_bin_list = list(dict.fromkeys(bin_list)) 
+    no_dup = list(set(bin_list)) 
 
     try:
         print('Printing BIN data responses...')
-        for bin_item in no_dup_bin_list:
+        for bin_item in no_dup:
             bin_search_url = main_api_url + bin_item
             response = requests.get(bin_search_url).json()
             print('-----------------------------------------')
