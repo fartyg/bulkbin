@@ -1,4 +1,5 @@
 import requests
+import re
 
 #constant variables:
 main_api_url = 'https://api.bincodes.com/bin/'
@@ -12,13 +13,11 @@ print('Version: 1.0 --- API: ' + main_api_url)
 
 while True:
 
-    #put items in a list and split it based on ', ' (comma_space)
+    #put items in a list and split it based on comma_space
     input_string = input("\nEnter BINs or cardnumbers separated by comma_space:\n>>> ")
-
-    card_list = input_string.split(', ')
-    bin_list = list(map(lambda i:i[0:6],card_list))
+    card_list = [card[:6] for card in re.split(r',\s*', input_string)]
     print('Removing possible duplicates...')
-    no_dup = list(set(bin_list))
+    no_dup = list(set(card_list))
 
     try:
         print('Printing BIN data responses...')
