@@ -12,6 +12,8 @@ To search for multiple BINs at the same time separate using comma+space, like so
 12345, 12345, 12345, 12345
 or
 12345,  12345,    12345, 12345 (amount of spaces should not matter)
+or
+12345,12345,12345 (no spaces)
 
 Duplicate BINs will be removed.
 
