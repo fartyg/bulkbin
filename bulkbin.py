@@ -1,29 +1,38 @@
-import requests
+'''This script prints BIN info in bulk'''
 import re
+import requests
 
 #constant variables:
-main_api_url = 'https://api.bincodes.com/bin/'
-api_format = 'json/'
-api_key = 'yourapikeyfrombincodes' #if you dont have an API code, you can test this program using the bulkbin_binlist.py file instead
+MAIN_API_URL = 'https://api.bincodes.com/bin/'
+API_FORMAT = 'json/'
+API_KEY = 'ec08fff1b4461e540285b25029cdd2b5/'
 
-#banner and version
 print('BulkBin')
-print('Version: 1.0 --- API: ' + main_api_url)
+print('Version: 1.0 --- API: ' + MAIN_API_URL)
 
 
 while True:
 
-    #put items in a list and split it based on comma_space
-    input_string = input("\nEnter BINs or cardnumbers separated by comma_space:\n>>> ")
-    card_list = [card[:6] for card in re.split(r',\s*', input_string)]
+    #put items in a list and split it based on ', ' (comma_space or just comma)
+
+    INPUT_STRING = input(
+        "\nEnter BINs or cardnumbers separated by comma_space:\n>>> ")
+
+    CARD_LIST = [card[:6] for card in re.split(r',\s*', INPUT_STRING)]
+
+    #card_list = input_string.split(', ')
+    #bin_list = list(map(lambda i:i[0:6],card_list))
+    #This was my previous way of doing it
+
+
     print('Removing possible duplicates...')
-    no_dup = list(set(card_list))
+    NO_DUPS = list(set(CARD_LIST))
+    #prefered way of removing duplicates according to Reddit
 
     try:
         print('Printing BIN data responses...')
-
-        for bin_item in no_dup:
-            bin_search_url = main_api_url + api_format + api_key + bin_item
+        for BIN_ITEM in NO_DUPS:
+            bin_search_url = MAIN_API_URL + API_FORMAT + API_KEY + BIN_ITEM
             response = requests.get(bin_search_url).json()
             print('-----------------------------------------')
             print(('BIN:\t\t') + response['bin'])
@@ -34,6 +43,7 @@ while True:
             print(('Country:\t') + response['country'].title())
             print('-----------------------------------------')
 
-    except KeyError:
-        print('KeyError:\tAPI query limit might be exceeded for today.'
-            + '\n\t\tCould not find correct dictionary key from json file')
+    except KeyError: #this needs to be improved
+        print('KeyError:\tAPI query limit might be exceeded for today.' +
+              '\n\t\tCould not find correct dictionary key from json file' +
+              '\n\t\tException handling in this program is not good yet')
