@@ -1,8 +1,9 @@
 # BulkBin
-<pre>
-<h2>Bank Identification Numbers in Bulk - No more captcha codes!</h2>
 
 https://youtu.be/qu3es_NqEtE
+
+<pre>
+<h2>Bank Identification Numbers in Bulk - No more captcha codes!</h2>
 
 This is my very first useful thing made in Python.
 The purpose has been to learn while solving a real world problem.
