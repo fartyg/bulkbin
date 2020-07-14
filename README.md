@@ -1,7 +1,5 @@
 # BulkBin
 
-Demo video: https://youtu.be/qu3es_NqEtE
-
 <pre>
 <h2>Bank Identification Numbers in Bulk - No more captcha codes!</h2>
 
